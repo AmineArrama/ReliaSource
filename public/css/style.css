@@ -8,6 +8,30 @@
 /*--------------------------------------------------------------
 # My Styles
 --------------------------------------------------------------*/
+
+
+.prof-line{
+  text-transform: capitalize ;
+}
+
+
+.prof-first-case{
+  color: grey;
+}
+
+
+.prof-second-case{
+
+  color: blue;
+}
+
+.social-botton{
+  color: blue;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+
 .comment-search{
   font-size: 12px;
   font-style: italic;
@@ -30,8 +54,6 @@ text-align: center;
 
 
 .img-profil{
-  margin-top: 30px;
-  margin-left: 40px;
   width: 150px;
   height: 150px;
 }
@@ -61,7 +83,7 @@ a:focus {
 
 p {
   padding: 0;
-  margin: 0 0 30px 0;
+  margin: 0 0 5px 0;
 }
 
 h1,
@@ -530,6 +552,9 @@ h6 {
 
 }
 
+
+/* page slide
+--------------------------------*/
 
 
 .fade-enter {

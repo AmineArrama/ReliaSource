@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import {
-    BrowserRouter as 
-    Link
-  } from "react-router-dom";
+  Link,
+} from "react-router-dom";
 
   class Header extends Component {
       constructor(props) {
@@ -34,7 +33,7 @@ import {
           <div>
 
             <Link to="/Search">
-            <a href="" className="btn-get-started ">
+            <a className="btn-get-started ">
             Get started
             </a>
             </Link>

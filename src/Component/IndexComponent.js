@@ -6,18 +6,22 @@ import SectionFeatures from './sections/SectionFeatures.js';
 import SectionOurClients from './sections/SectionOurClients.js';
 import SectionTeam from './sections/SectionTeam.js';
 
+  
 class Start extends Component {
   render() {
     return (
       <div className="Start">
         <body>
-            
+          
+       
   <SectionHeader />
       
 
 
 
   <main id="main">
+
+
     {/*
     <SectionAboutUS />
     */}

@@ -17,6 +17,11 @@ class Search extends Component {
     this.searchCall = this.searchCall.bind(this);
   }
 
+  toBeAdded(){
+    
+    swal("Function to be added")
+    
+  }
 
   searchCall(){
 
@@ -82,17 +87,17 @@ class Search extends Component {
         </div>
 </div>
   <div class="row ">
-    <div class="col-sm-1">
+    <div class="col-0 	col-sm-0 	col-md-0 	col-lg-1 	col-xl-1">
       
     </div>
-    <div class="col-sm-10">
+    <div class="col-12 	col-sm-12 	col-md-12 	col-lg-10 	col-xl-10">
 
     <div class="card section-bg">
         <div class="card-body">
 {/* 
 <a className="comment-search">
           words to search with : C++ C# C Java React Angular Excel Word  
-</a>defaultValue="react"
+</a> defaultValue="react"
 */}
         <div class="input-group -mb3">
   <input type="text" class="form-control"  placeholder="Search technician" id="inputSearch" /> 
@@ -113,21 +118,64 @@ this.state.techToshow==null ? "" :
 
 <div class="card" >
   <div class="row no-gutters">
-    <div class="col-md-3">
-      <img  src={"img/profil/"+tech.ProfilPic+".jpg"}  className="img-profil" alt="" />
+    <div class="col-md-3 d-flex align-items-center justify-content-center">
+      <img  src={"img/profil/"+tech.profilPic+".jpg"}  className=" rounded-circle img-thumbnail img-profil" alt="" />
 
 
     </div>
     <div class="col-md-9">
       <div class="card-body">
-        <h5 class="card-title">{tech.FullName}</h5>
-        <p class="card-text">Description: {tech.description}</p>
-        <p class="card-text">Joined {tech.Joined}</p>
-        <p class="card-text">Location: {tech.location}</p>
-        <p class="card-text">Phone: {tech.Phone}</p>
-        <p class="card-text">Email: {tech.Email}</p>
+
+
+        <h5 class="card-title">{tech.fullName}</h5>
+        <div class="row prof-line">
+  <div class="col-3 prof-first-case">description</div>
+  <div class="col-9 prof-second-case">{tech.description}</div>
+</div>
+
+<div class="row prof-line">
+  <div class="col-3 prof-first-case">location</div>
+  <div class="col-9 prof-second-case">{tech.location}</div>
+</div>
+
+<div class="row prof-line">
+  <div class="col-3 prof-first-case">rate</div>
+  <div class="col-9 prof-second-case">{tech.rate}/10</div>
+</div>
+
+<div class="row prof-line">
+  <div class="col-3 prof-first-case">joined</div>
+  <div class="col-9 prof-second-case">{tech.joined}</div>
+</div>
+
+<div class="row prof-line">
+  <div class="col-3 prof-first-case">phone</div>
+  <div class="col-9 prof-second-case">{tech.phone}</div>
+</div>
+
+<div class="row prof-line">
+  <div class="col-3 prof-first-case">sector</div>
+  <div class="col-9 prof-second-case">{tech.sector}</div>
+</div>
+<div class="row prof-line">
+  <div class="col-3 prof-first-case">email</div>
+  <div class="col-9 prof-second-case">{tech.email}</div>
+</div>
+
+
+      <div class="row">
+              <div class="col-lg-12 col-sm-12 col-12">
+                  <a href="#"><i class="fa fa-facebook social-botton"    aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa fa-linkedin social-botton" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa fa-twitter social-botton"   aria-hidden="true"></i></a>
+              </div>
+      </div>
+
+      
+
+
         <div class="row">
-    <div class="col-md-10">
+    <div class="col-md-7">
     <p class="card-text">
           <small class="text-muted">
           {
@@ -139,8 +187,13 @@ this.state.techToshow==null ? "" :
         }
             </small></p>
     </div>
-    <div class="col-md-2">
-    <button class="btn btn-success" > Hire </button>
+    <div class="col-md-5 d-flex justify-content-end">
+
+
+    <button  class="button hire" onClick={this.toBeAdded}>Hire <i class="fa fa-handshake-o" aria-hidden="true"></i> </button>
+    <button class="button calll" onClick={this.toBeAdded}>Call <i class="fa fa-phone" aria-hidden="true"></i></button>
+
+
 
     </div>
 
@@ -188,7 +241,7 @@ this.state.techToshow==null ? "" :
       </div>   
 
     </div>
-    <div class="col-sm-1">
+    <div class="col-0 col-sm-0 	col-md-0 	col-lg-1 	col-xl-1">
       
     </div>
   </div>
