@@ -9,6 +9,8 @@
       "joined" :"21/01/2019",
       "location":"New Jersey,USA",
       "phone":"994-3010",
+      "prix":"15",
+      
       "email":"Brahim@gmail.com"
     },
     {"id": 2,  
@@ -21,6 +23,8 @@
       "joined" :"21/05/2019",
       "location":"Alabama,USA",
       "phone":"754-3010",
+      "prix":"22",
+
       "email":"Mohamed@gmail.com"
       
     },
@@ -34,6 +38,8 @@
       "joined" :"11/01/2020",
       "location":"Texas,USA",
       "phone":"879-3010",
+      "prix":"19",
+
       "email":"Jacqueline@gmail.com"
     }
 

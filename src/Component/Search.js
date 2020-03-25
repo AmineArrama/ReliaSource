@@ -144,8 +144,13 @@ this.state.techToshow==null ? "" :
 </div>
 
 <div class="row prof-line">
-  <div class="col-3 prof-first-case">joined</div>
-  <div class="col-9 prof-second-case">{tech.joined}</div>
+  <div class="col-3 prof-first-case">rate</div>
+  <div class="col-9 prof-second-case">{tech.rate}/10</div>
+</div>
+
+<div class="row prof-line">
+  <div class="col-3 prof-first-case">prix</div>
+  <div class="col-9 prof-second-case">${tech.prix} USD / hour </div>
 </div>
 
 <div class="row prof-line">
