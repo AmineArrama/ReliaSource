@@ -1,0 +1,37 @@
+[
+    {"id": 1,  
+      "ProfilPic": "1234", 
+      "FullName": "Brahim B", 
+      "sector": "development", 
+      "tags": ["Angular","C++","C#","C"] , 
+      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Joined" :"21/01/2019",
+      "location":"New Jersey,USA",
+      "Phone":"994-3010",
+      "Email":"Brahim@gmail.com"
+    },
+    {"id": 2,  
+      "ProfilPic": "1235", 
+      "sector": "development", 
+      "FullName": "Mohamed Led", 
+      "tags": ["React","Java","Angular"], 
+      "description":"Fusce varius tortor eu mi gravida sodales.",
+      "Joined" :"21/05/2019",
+      "location":"Alabama,USA",
+      "Phone":"754-3010",
+      "Email":"Mohamed@gmail.com"
+    },
+    {"id": 3,  
+      "ProfilPic": "1236", 
+      "sector": "development", 
+      "FullName": "Jacqueline Std", 
+      "tags": ["React","Excel","Word"], 
+      "description":"Vestibulum maximus leo non tortor volutpat convallis.",
+      "Joined" :"11/01/2020",
+      "location":"Texas,USA",
+      "Phone":"879-3010",
+      "Email":"Jacqueline@gmail.com"
+    }
+
+  ]
+
